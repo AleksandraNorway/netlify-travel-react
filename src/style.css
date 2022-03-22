@@ -82,12 +82,12 @@ section {
   
   font-size: 12px;
      /* ADD */
-     padding: 1em;
+     padding: 2em;
   display: grid;          /* ADD */
   flex-direction: column; /* ADD */
   /*position: relative;*/
   grid-template-columns: minmax(150px, 1fr) minmax(450px, 1fr);
-   grid-gap: 1em;
+   grid-gap: 2em;
     grid-template-areas: 
           "image title"
           "image location"
